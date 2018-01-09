@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*全部*/
+.title{padding:0 .18rem; height:.36rem; padding-left:.18rem; padding-right:.19rem; margin-top:.27rem; margin-bottom:.19rem;}
+.title h2{height:100%; border-left:.05rem solid #8e7cc6; font-size:.3rem; color:#45494c; padding-left:.16rem; line-height:.36rem; border-radius:0.02rem; position: relative;}
+.title h2 a{float:right; color:#676c70; padding:.08rem .14rem; border:.01rem solid #8e7cc6; position: absolute; top:-.1rem; right:0; font-size:.26rem;}
+/*list*/
+.list-box{padding:0 .04rem;}
+.list{width:2.2rem; margin:0 .13rem .3rem; float:left; height:auto;}
+.list a{float:left;}
+.list img{width:100%;}
+.list div{font-size:.23rem; line-height: .29rem; margin-top:.07rem; padding-left:.08rem;color:#45494c;}
+

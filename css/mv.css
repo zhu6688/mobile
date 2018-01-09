@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/*main*/
+.main{margin:0 .18rem; width:7.14rem; overflow:hidden; padding-top:.14rem;}
+.main ul{margin-right:-.32rem;}
+.list{width:3.41rem; height:1.91rem; margin-bottom:.32rem; margin-right:.3rem; position:relative; float:left; }
+.list a{display:block;}
+.list a img{width:3.41rem; height:1.91rem;}
+.list p{position:absolute; left:0; bottom:0; height:.38rem; width:1.05rem; background:rgba(255,255,255,.1); font-size:.28rem; color:#fff; text-align:center;}
+

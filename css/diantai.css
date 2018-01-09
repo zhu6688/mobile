@@ -1,0 +1,17 @@
+@charset "utf-8";
+body{background:#cacfd4;}
+/*主题*/
+.main-box{margin:0 .18rem;}
+.left{float:left; width:1.05rem; border-right:.03rem solid #99a7b0; font-size:.3rem; text-align: center;}
+.left li{height:1.24rem; line-height: 1.24rem; width:100%;border-bottom:.03rem solid #99a7b0;}
+.left li:last-child{border-bottom:none;}
+.left li.active span{padding:.04rem 0 .02rem .17rem; border-left:.05rem solid #8e7cc6; color:#8e7cc6; border-radius:.02rem;}
+/*右边*/
+.right{float:left; width:6rem;}
+.list{margin-left:.07rem; margin-top:.06rem; background:#dadee1;}
+.list a{float:left;}
+.list a img{width:1.66rem; height:1.66rem;}
+.text2{font-size:.26rem; float:left; margin-left:.44rem; height:1.66rem; }
+.text2 h3{margin-top:.5rem; font-weight:normal;}
+.text2 p{ margin-top:.04rem;}
+.text2 p em{background:url(../img/erji.png) no-repeat; background-size:cover; width:.3rem; height:.21rem; float:left; margin-top:0.08rem; margin-right:.2rem;}

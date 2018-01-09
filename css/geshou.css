@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*标题*/
+.title{padding-left:.18rem; height:.36rem; padding-top:.21rem; border-top:.01rem solid #b6c5d1; margin-bottom:.15rem;}
+.title h2{line-height:.36rem; padding-left:.19rem; border-left:.05rem solid #8e7cc6; font-size:.3rem; color:#45494c;}
+/*歌手图片*/
+.geshou-pic{margin-top:.15rem; margin:0 .18rem; width:7.14rem; overflow:hidden;}
+.geshou-pic ul{background-color:#fff; margin-right:-.11rem;}
+.list{width:1.7rem; margin-right:.11rem; float:left;}
+.list img{width:1.7rem; height:1.7rem;}
+.list p{ width:100%; text-align: center; line-height: .4rem; margin:0.09rem 0 .11rem; font-size:.26rem;}
+.geshou-pic ol{width:.91rem; height:.1rem; text-align: center; margin:.13rem auto .21rem;}
+.geshou-pic ol li{background:#919aa1; margin-right:.1rem; width:.1rem; height:100%; float:left; border-radius:50%;}
+.geshou-pic ol li.active{background-color:#8e7cc6;}
+/*选项*/
+.xuan{padding:0 .18rem; margin-bottom:.15rem;}
+.xuan ul{ background-color:#fff;}
+.xuan ul li{height:.87rem; line-height:.87rem; font-size:.29rem; margin:0 .16rem; border-bottom:.03rem solid #9fa4ab; position: relative; }
+.right-bg{background:url(../img/right.png) no-repeat;  position:absolute; width:.11rem; height:.2rem; right:.11rem; top:.35rem;background-size:cover;}
+.xuan ul .xuan-last-list{border-bottom:none;}
