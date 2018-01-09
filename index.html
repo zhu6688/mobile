@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>推荐</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/tuijian.css">
+<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+
+<script src="js/swiper-3.3.1.min.js"></script>
+<script>
+;(function(win,doc){
+	var resize='orientationchange' in window ? 'orientationchange' : 'resize';
+	function change(){
+		var htm=doc.documentElement;
+		htm.style.fontSize=(doc.documentElement.clientWidth/750)*100+'px';
+	}
+	win.addEventListener(resize,change,false);
+	win.addEventListener('load',change,false);
+	doc.addEventListener('DOMContentLoaded',change,false);
+})(window,document);
+/*window.onload=function(){
+	var mySwiper = new Swiper ('.swiper-container', {
+			direction: 'horizontal',
+			loop: true,
+			initialSlide :0,
+			// 如果需要分页器
+			pagination: '.swiper-pagination',
+	})  
+};*/
+</script>
+</head>
+
+<body>
+<!--头部-->
+<header>
+	<i class="head-l-bg"></i>
+	<div class="input">
+		<input type="text" placeholder="搜索音乐 歌词 电台">
+		<i class="search"></i>
+	</div>
+	<i class="head-r-bg"></i>
+</header>
+
+<!--导航-->
+<nav>
+	<ul>
+		<li><a href="index.html" class="active">推荐</a></li>
+		<li><a href="paihang.html">排行</a></li>
+		<li><a href="gedan.html">歌单</a></li>
+		<li><a href="geshou.html">歌手</a></li>
+		<li><a href="mv.html">MV</a></li>
+		<li><a href="diantai.html">电台</a></li>
+	</ul>
+</nav>
+
+<!--banner-->
+<section class="banner-wrap">
+	<ul class="banner clearfix">
+		<li><a href="javascript:;"><img src="img/banner1.jpg" alt=""></a></li>
+	</ul>
+	<ol class="banner-num">
+		<li class="active"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+</section>
+<!-- <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+    </div>
+    如果需要分页器
+    <div class="swiper-pagination"></div>
+</div> -->
+
+<!--最新单曲-->
+<section class="danqu">
+	<div class="side-title">
+		<h2>最新单曲<span>(4月3日更新)</span></h2>
+	</div>
+	<ul class="clearfix list-parent">
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list1.jpg" alt="">
+				<p>港台</p>
+			</a>
+		</li>
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list2.jpg" alt="">
+				<p>欧美</p>
+			</a>
+		</li>
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list3.jpg" alt="">
+				<p>内地</p>
+			</a>
+		</li>
+	</ul>
+	<p class="line"></p>
+</section>
+
+<!--最新专辑-->
+<section class="danqu">
+	<div class="side-title">
+		<h2>最新专辑<span>(4月3日更新)</span></h2>
+	</div>
+	<ul class="clearfix list-parent">
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list4.jpg" alt="">
+				<p>欧美</p>
+			</a>
+		</li>
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list5.jpg" alt="">
+				<p>内地</p>
+			</a>
+		</li>
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list6.jpg" alt="">
+				<p>港台</p>
+			</a>
+		</li>
+	</ul>
+	<p class="line"></p>
+</section>
+
+<!--MV精选-->
+<section class="danqu">
+	<div class="side-title">
+		<h2>MV精选<span>(4月3日更新)</span></h2>
+	</div>
+	<ul class="clearfix list-parent">
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list4.jpg" alt="">
+				<p>欧美</p>
+			</a>
+		</li>
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list5.jpg" alt="">
+				<p>内地</p>
+			</a>
+		</li>
+		<li class="list">
+			<a href="javascript:;">
+				<img src="img/list6.jpg" alt="">
+				<p>港台</p>
+			</a>
+		</li>
+	</ul>
+	<p class="line"></p>
+</section>
+
+<!--底部footer-->
+<footer>
+	<div class="foot-block active" >
+		<i class="f-bg1"></i>
+		<span>音乐</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg2"></i>
+		<span>K歌</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg3"></i>
+		<span>我的</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg4"></i>
+		<span>设置</span>
+	</div>
+</footer>
+
+</body>
+</html>

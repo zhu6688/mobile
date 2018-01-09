@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1; user-scalable=no">
+<title>MV</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/mv.css">
+<script>
+;(function(win,doc){
+	var resize='orientstionchange' in window ? 'orientationchange' : 'resize';
+	function change(){
+		var htm=doc.documentElement;
+		htm.style.fontSize=(doc.documentElement.clientWidth/750)*100+'px';
+	}
+	win.addEventListener(resize,change,false);
+	win.addEventListener('load',change,false);
+	doc.addEventListener('DOMContentLoaded',change,false);
+})(window,document);
+</script>
+</head>
+
+<body>
+<!--头部-->
+<header>
+	<i class="head-l-bg"></i>
+	<div class="input">
+		<input type="text" placeholder="搜索音乐 歌词 电台">
+		<i class="search"></i>
+	</div>
+	<i class="head-r-bg"></i>
+</header>
+
+<!--导航-->
+<nav>
+	<ul>
+		<li><a href="index.html">推荐</a></li>
+		<li><a href="paihang.html">排行</a></li>
+		<li><a href="gedan.html">歌单</a></li>
+		<li><a href="geshou.html">歌手</a></li>
+		<li><a href="mv.html" class="active">MV</a></li>
+		<li><a href="diantai.html">电台</a></li>
+	</ul>
+</nav>
+<!--main-->
+<section class="main">
+	<ul class="clearfix">
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv.jpg" alt=""></a>
+			<p>首播</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv2.jpg" alt=""></a>
+			<p>排行</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv3.jpg" alt=""></a>
+			<p>内地</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv4.jpg" alt=""></a>
+			<p>欧美</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv5.jpg" alt=""></a>
+			<p>日韩</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv6.jpg" alt=""></a>
+			<p>网络</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv7.jpg" alt=""></a>
+			<p>翻制版</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv8.jpg" alt=""></a>
+			<p>FLASH</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv.jpg" alt=""></a>
+			<p>首播</p>
+		</li>
+		<li class="list">
+			<a href="javascript:;"><img src="img/mv.jpg" alt=""></a>
+			<p>首播</p>
+		</li>
+	</ul>
+</section>
+
+
+
+<!--底部footer-->
+<footer>
+	<div class="foot-block active" >
+		<i class="f-bg1"></i>
+		<span>音乐</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg2"></i>
+		<span>K歌</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg3"></i>
+		<span>我的</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg4"></i>
+		<span>设置</span>
+	</div>
+</footer>
+</body>
+</html>

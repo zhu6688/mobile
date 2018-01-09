@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1; user-scalable=no">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/diantai.css">
+<script>
+;(function(win,doc){
+	var resize='oritationchange' in window ? 'orientationchange' : 'resize' ;
+	function change(){
+		var htm=doc.documentElement;
+		htm.style.fontSize=(doc.documentElement.clientWidth/750)*100+'px';
+	}
+	win.addEventListener(resize,change,false);
+	win.addEventListener('load',change,false);
+	doc.addEventListener('DOMContentLoaded',change,false);
+})(window,document);
+</script>
+<title>电台</title>
+
+</head>
+
+<body>
+<!--头部-->
+<header>
+	<i class="head-l-bg"></i>
+	<div class="input">
+		<input type="text" placeholder="搜索音乐 歌词 电台">
+		<i class="search"></i>
+	</div>
+	<i class="head-r-bg"></i>
+</header>
+
+<!--导航-->
+<nav>
+	<ul>
+		<li><a href="index.html">推荐</a></li>
+		<li><a href="paihang.html">排行</a></li>
+		<li><a href="gedan.html">歌单</a></li>
+		<li><a href="geshou.html">歌手</a></li>
+		<li><a href="mv.html">MV</a></li>
+		<li><a href="diantai.html" class="active">电台</a></li>
+	</ul>
+</nav>
+<!--main-->
+<section class="main-box">
+	<ul class="left">
+		<li>
+			<span>推荐</span>
+		</li>
+		<li>
+			<span>心情</span>
+		</li>
+		<li>
+			<span>主题</span>
+		</li>
+		<li>
+			<span>场景</span>
+		</li>
+		<li class="active">
+			<span>歌手</span>
+		</li>
+		<li>
+			<span>乐器</span>
+		</li>
+		<li>
+			<span>语种</span>
+		</li>
+		<li>
+			<span>曲风</span>
+		</li>
+	</ul>
+	<ul class="right">
+		<li class="list clearfix">
+			<a href="javascript:;"><img src="img/ge1.jpg" alt=""></a>
+			<div class="text2">
+				<h3>90后最爱的FM</h3>
+				<p><em></em>433,60万</p>
+			</div>
+		</li>
+		<li class="list clearfix">
+			<a href="javascript:;"><img src="img/ge1.jpg" alt=""></a>
+			<div class="text2">
+				<h3>90后最爱的FM</h3>
+				<p><em></em>433,60万</p>
+			</div>
+		</li>
+		<li class="list clearfix">
+			<a href="javascript:;"><img src="img/ge1.jpg" alt=""></a>
+			<div class="text2">
+				<h3>90后最爱的FM</h3>
+				<p><em></em>433,60万</p>
+			</div>
+		</li>
+		<li class="list clearfix">
+			<a href="javascript:;"><img src="img/ge1.jpg" alt=""></a>
+			<div class="text2">
+				<h3>90后最爱的FM</h3>
+				<p><em></em>433,60万</p>
+			</div>
+		</li>
+	</ul>
+</section>
+
+<!--底部footer-->
+<footer>
+	<div class="foot-block active" >
+		<i class="f-bg1"></i>
+		<span>音乐</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg2"></i>
+		<span>K歌</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg3"></i>
+		<span>我的</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg4"></i>
+		<span>设置</span>
+	</div>
+</footer>
+</body>
+</html>

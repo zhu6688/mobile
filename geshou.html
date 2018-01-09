@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1; user-scalable=no">
+<title>歌手</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/geshou.css">
+<script>
+;(function(win,doc){
+	var resize='oritationchange' in window ? 'orientationchange' : 'resize' ;
+	function change(){
+		var htm=doc.documentElement;
+		htm.style.fontSize=(doc.documentElement.clientWidth/750)*100+'px';
+	}
+	win.addEventListener(resize,change,false);
+	win.addEventListener('load',change,false);
+	doc.addEventListener('DOMContentLoaded',change,false);
+})(window,document);
+</script>
+</head>
+
+<body>
+<!--头部-->
+<header>
+	<i class="head-l-bg"></i>
+	<div class="input">
+		<input type="text" placeholder="搜索音乐 歌词 电台">
+		<i class="search"></i>
+	</div>
+	<i class="head-r-bg"></i>
+</header>
+
+<!--导航-->
+<nav>
+	<ul>
+		<li><a href="index.html">推荐</a></li>
+		<li><a href="paihang.html">排行</a></li>
+		<li><a href="gedan.html">歌单</a></li>
+		<li><a href="geshou.html" class="active">歌手</a></li>
+		<li><a href="mv.html">MV</a></li>
+		<li><a href="diantai.html">电台</a></li>
+	</ul>
+</nav>
+<!--标题-->
+<div class="title">
+	<h2>热门歌手</h2>
+</div>
+<!--歌手图片-->
+<section class="geshou-pic">
+	<ul class="clearfix">
+		<li class="list">
+			<img src="img/geshou1.jpg" alt="">
+			<p>邓紫棋</p>
+		</li>
+		<li class="list">
+			<img src="img/geshou2.jpg" alt="">
+			<p>筷子兄弟</p>
+		</li>
+		<li class="list">
+			<img src="img/geshou3.jpg" alt="">
+			<p>罗志祥</p>
+		</li>
+		<li class="list">
+			<img src="img/geshou4.jpg" alt="">
+			<p>邓丽君</p>
+		</li>
+	</ul>
+	<ol>
+		<li class="active"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+</section>
+<!--选项-->
+<section class="xuan">
+	<ul>
+		<li>话语男歌手<i class="right-bg"></i></li>
+		<li>话语女歌手<i class="right-bg"></i></li>
+		<li class="xuan-last-list">话语乐队组合<i class="right-bg"></i></li>
+	</ul>
+</section>
+
+<section class="xuan xuan2">
+	<ul>
+		<li>话语男歌手<i class="right-bg"></i></li>
+		<li>话语女歌手<i class="right-bg"></i></li>
+		<li class="xuan-last-list">话语乐队组合<i class="right-bg"></i></li>
+	</ul>
+</section>
+<section class="xuan xuan3">
+	<ul>
+		<li>话语男歌手<i class="right-bg"></i></li>
+		<li>话语女歌手<i class="right-bg"></i></li>
+		<li class="xuan-last-list">话语乐队组合<i class="right-bg"></i></li>
+	</ul>
+</section>
+
+
+<!--底部footer-->
+<footer>
+	<div class="foot-block active" >
+		<i class="f-bg1"></i>
+		<span>音乐</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg2"></i>
+		<span>K歌</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg3"></i>
+		<span>我的</span>
+	</div>
+	<div class="foot-block">
+		<i class="f-bg4"></i>
+		<span>设置</span>
+	</div>
+</footer>	
+</body>
+</html>
